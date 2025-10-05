@@ -20,6 +20,11 @@ const eslintConfig = [
       "next-env.d.ts",
     ],
   },
+  {
+    rules: {
+      "import/no-unresolved": "error",
+    },
+  },
 ];
 
 export default eslintConfig;
